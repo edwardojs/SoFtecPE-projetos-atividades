@@ -1,0 +1,10 @@
+preco_pao = RS 0 ,75
+preco_queijo = RS 1,50
+qtd_pao =int(imput("Quantos pães franceses você deseja?"))
+qtd_queijo=int (imput("Quantos queijo você deseja?"))
+total_pao = qtd_pao * preco_pao
+total_queijo = qtd * preco_queijo
+total_compra = total_pao + total_queijo
+print(f"Pães franceses ({qtd_pao} un): RS {total_pao:.2f}")
+print(f"queijo({qtd_queijo} un): RS {total_queijo:.2f}")
+print(f "total a pagar :RS {total_compra:.2f}")
