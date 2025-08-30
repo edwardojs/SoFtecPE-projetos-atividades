@@ -1,17 +1,13 @@
-# preços fixos
 preco_pao = 0.75
 preco_queijo = 1.50
 
-# entrada de dados
 quantidade_paes = int(input("Quantos pães franceses você deseja? "))
 quantidade_queijos = int(input("Quantos queijos você deseja? "))
 
-# cálculo do total
 total_paes = quantidade_paes * preco_pao
 total_queijos = quantidade_queijos * preco_queijo
 total_compra = total_paes + total_queijos
 
-# saída
 print("\n----- RESUMO DA COMPRA -----")
 print(f"Pães franceses: {quantidade_paes} x R$ {preco_pao:.2f} = R$ {total_paes:.2f}")
 print(f"Queijos:        {quantidade_queijos} x R$ {preco_queijo:.2f} = R$ {total_queijos:.2f}")

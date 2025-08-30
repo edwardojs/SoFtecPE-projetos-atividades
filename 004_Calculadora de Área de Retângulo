@@ -1,0 +1,4 @@
+altura = float(input("\nDigite a altura do retângulo (em metros): "))
+largura = float(input("Digite a largura do retângulo (em metros): "))
+area = altura * largura
+print(f"A área do retângulo é de {area} metros quadrados.")

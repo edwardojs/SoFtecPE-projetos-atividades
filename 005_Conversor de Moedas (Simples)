@@ -1,0 +1,6 @@
+cotacao_dolar = 5.25
+valor_reais = float(input("\nDigite um valor em Reais (R$): "))
+valor_dolares = valor_reais / cotacao_dolar
+
+print(f"Com a cotação do dólar a R$ {cotacao_dolar}")
+print(f"O valor de R$ {valor_reais:.2f} equivale a US$ {valor_dolares:.4f}")
