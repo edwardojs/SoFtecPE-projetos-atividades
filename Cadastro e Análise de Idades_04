@@ -1,0 +1,16 @@
+idades = []
+
+while True:
+    idade = int(input("\nDigite uma idade (-1 para sair): "))
+    if idade == -1:
+        break
+    idades.append(idade)
+
+# contar maiores de idade
+maiores = 0
+for idade in idades:
+    if idade >= 18:
+        maiores += 1
+
+print("Idades cadastradas:", idades)
+print(f"Quantidade de pessoas maiores de idade: {maiores}")

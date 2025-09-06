@@ -1,0 +1,11 @@
+numero_secreto = 42
+palpite = int(input("\nAdivinhe o número secreto: "))
+
+while palpite != numero_secreto:
+    if palpite < numero_secreto:
+        print("Muito baixo! Tente novamente.")
+    else:
+        print("Muito alto! Tente novamente.")
+    palpite = int(input("Digite seu palpite: "))
+
+print("Parabéns! Você acertou o número secreto.")

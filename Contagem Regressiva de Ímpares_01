@@ -1,0 +1,6 @@
+numero = int(input("Digite um número inteiro positivo: "))
+
+print("Contagem regressiva de ímpares:")
+for i in range(numero, 0, -1):  # começa em numero e vai até 1
+    if i % 2 != 0:  # verifica se é ímpar
+        print(i)
